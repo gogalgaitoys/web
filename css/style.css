@@ -1,0 +1,1319 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    font-weight: bold;
+}
+.html{
+    font-size: 62.5%;
+}
+
+.logo{
+    width: 20.8rem;
+    height: 5.8rem;
+    /* padding: 0.2rem 1rem; */
+}
+.icon-bar{
+    background: brown;
+}
+li a{
+    color: brown;
+    /* background: rgb(242,242,48); */
+}
+#bootstrap-overrides li a:hover{
+    color: white;
+    background-color: brown;
+}
+#bootstrap-overrides header{
+    background: white
+}
+.imgbackground{
+    margin: 0rem;
+    padding: 0rem;
+    background-color: white;
+}
+.slider{
+    padding-top: 0% ;
+    padding-bottom: 2%;
+    width: 80.0rem;
+    height: 45.0rem;
+    margin-left: 20%;
+    border-radius: 1.0rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.slides{
+    width: 500%;
+    height: 45.0rem;
+    display: flex;
+    /* align-items: center; */
+    
+}
+.slides input{
+    
+    display: none;
+}
+.slide{
+    /* align-items: center; */
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 80.0rem;
+    height: 50.0rem;
+    border-radius: 1.0rem;
+}
+/*css for manual navigation*/
+.navigation-manual{
+    position: absolute;
+    width: 80.0rem;
+    margin-top: -4.0rem;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    display: flex;
+    justify-content: center;
+
+}
+.manual-btn{
+    border: .2rem solid white;
+    padding: .5rem;
+    border-radius: 1.0rem;
+    cursor: pointer;
+    transition: 1s;
+    overflow: hidden;
+    /* background: transparent !important; */
+}
+.manual-btn:not(:last-child){
+    margin-right: 4.0rem;
+}
+.manual-btn:hover{
+    background: brown;
+}
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+/*image slider css ends*/
+#bootstrap-overrides .floating-menu{
+    
+    color: brown!important;
+    width: 9.5rem!important;
+    height: 42.0rem!important;
+    position: fixed!important;
+    /* padding-top: 20!important; */
+    z-index: 100!important;
+    /* overflow-y: hidden!important; */
+    bottom: 0rem!important;
+    right: -1rem!important;
+    margin-right: 0rem!important;
+    padding-right: 0rem!important;
+    background: transparent !important;
+    /* background-color: white!important; */
+    /* overflow: hidden!important; */
+}
+.floating-menu li a{
+    
+    /* padding-right: 10rem; */
+    text-align: center!important;
+}
+.floating-menu a{
+    /* padding-right: 2rem; */
+    text-decoration: none!important;
+    list-style: none!important;
+    color: whitesmoke!important;
+    list-style: none!important;
+    text-decoration: none!important;
+    font-size: medium!important;
+    text-align: center!important;
+}
+.floating-menu li{
+    padding: 0!important;
+    text-align: center!important;
+    text-decoration: none!important;
+    list-style-type: none!important;
+}
+.fa:hover {
+    color: white!important;
+    opacity: 1!important;
+}
+.fa-facebook{
+    /* width: 100rem!important; */
+    padding-right: 2rem;
+    opacity: 0.5!important;
+    background: #3B5998!important;
+    color: white!important;
+    text-align: center!important;
+}
+.fa-facebook:hover{
+    background: #3B5998!important;
+}
+.fa-linkedin {
+    
+    /* padding-right: 2rem; */
+    opacity: 0.5!important;
+    color: white!important;
+    background: #007bb5!important;
+    text-align: center!important;
+}
+.fa-linkedin:hover{
+    background: #007bb5!important;
+}
+
+.fa-instagram {
+    opacity: 0.5!important;
+    color: white!important;
+    background: rgb(216, 13, 95)!important;
+    text-align: center!important;
+}
+.fa-instagram:hover{
+    background: rgb(216, 13, 95)!important;
+}
+.fa-whatsapp {
+    opacity: 0.5!important;
+    background: rgba(2, 239, 49)!important;
+    color: white!important;
+    text-align: center!important;
+}
+.fa-whatsapp:hover{
+    background: rgba(2, 239, 49)!important;
+}
+.fa-phone {
+    
+    opacity: 0.5!important;
+    background: rgba(43, 222, 232)!important;
+    /* background: transparent!important; */
+    color: white!important;
+    text-align: center!important;
+}
+.fa-phone:hover{
+    background: rgb(43,222,232)!important;
+}
+.fa-envelope {
+    opacity: 0.5!important;
+    background: rgb(184, 30, 30)!important;
+    color: white!important;
+    text-align: center!important;
+}
+.fa-envelope:hover{
+    background: rgb(184, 30, 30)!important;
+}
+.fa {
+    padding: 2.0rem!important;
+    font-size: 2.0rem!important;
+    width: 25%!important;
+    text-decoration: none!important;
+    margin: .5rem 1.0rem!important;
+    border-radius: 1.0rem!important;
+    text-align: center!important;
+    justify-content: center;
+}
+
+
+.main{
+    display: flex;
+    width: 100%;
+}
+
+.afterimg{
+    background-color: white;
+    padding: 2.5rem 0rem;
+}
+.title{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2.0rem;
+    float: center;
+    list-style-type: none;
+    padding: .5rem 2.0rem;
+    font-weight: bolder;
+    font-size: large;
+}
+.aboutus{
+    padding: 2.0rem 2.0rem;
+    display: inline-block;
+}
+.leftcircle{
+    float: left;
+    border-radius: 10%;
+    padding-right: 1.5rem;
+    width: 20%;
+    height: 18.0rem;
+    background-color: white;
+    /* box-shadow: .2rem .2rem .4rem .2rem rgb(181, 48, 48); */
+}
+.rightcircle{
+    float: right;
+    border-radius: 10%;
+    padding-left: 1.5rem;
+    width: 20%;
+    height: 18.0rem;
+    background-color: white;
+    /* box-shadow: .2rem .2rem .4rem .2rem rgb(181, 48, 48); */
+}
+.aboutus li{
+    padding: 1.0rem 4.0rem;
+    color: brown;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    text-decoration-style: none;
+    list-style-type: none;
+    text-align: center;
+}
+.slogan{
+    padding: 1.0rem 4.0rem;
+    color: brown;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration-style: none;
+    list-style-type: none;
+    text-align: center;
+}
+/* Products */
+.rowproducts{
+    background-color: white;
+    padding-top: 3.5rem;
+    padding-bottom: 2.0rem;
+    width: 98.4%;
+    height: 18.5rem;
+    display: flex;
+    padding-left: 2.0rem;
+    /* padding-right: 2.0rem; */
+}
+.leftimg{
+    width: 33%;
+    /* padding: .5rem 2.0rem; */
+    padding: .5rem 2.0rem;
+    float: left;
+    
+}
+.leftimg img{
+    width: 90%;
+    /* padding-left: 2.5rem; */
+    height: 18.0rem;
+    border-radius: 5.0rem;
+    box-shadow: .1rem .2rem .2rem .05rem brown;
+}
+.rightimg{
+    width: 33%;
+    float: right;
+    padding: .5rem 1.5rem;
+    
+}
+.rightimg img{
+    width: 90%;
+    height: 18.0rem;
+    border-radius: 5.0rem;
+    box-shadow: .1rem .2rem .2rem .05rem brown;
+}
+.centerimg{
+    width: 33%;
+    float: center;
+    padding: .5rem 2.0rem;
+    
+}
+.centerimg img{
+    width: 90%;
+    /* padding-left: 2.5rem; */
+    height: 18.0rem;
+    border-radius: 5.0rem;
+    box-shadow: .1rem .2rem .2rem .05rem brown;
+}
+.descriptionprod{
+    padding-top: 4.5rem;
+    background-color: white;
+    color: brown;
+    text-align: center;
+    display: flex;
+    padding-bottom: 2.0rem;
+}
+.leftdescriptionprod{
+    float: left;
+    width: 33%;
+}
+.leftdescriptionprod li{
+    width: 100%;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    text-decoration-style: none;
+    list-style-type: none;
+    text-align: center;
+}
+.centerdescriptionprod{
+    float: center;
+    width: 33%;
+}
+.centerdescriptionprod li{
+    width: 95%;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    text-decoration-style: none;
+    list-style-type: none;
+    text-align: center;
+}
+.rightdescriptionprod{
+    float: right;
+    width: 33%;
+}
+.rightdescriptionprod li{
+    width: 85%;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    text-decoration-style: none;
+    list-style-type: none;
+    text-align: center;
+}
+/* products end */
+/* findus start */
+.findusstart{
+    padding: 1.0rem;
+    background: white;
+    /* width: 100%; */
+}
+.findusimg{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    /* width: 100%; */
+
+}
+.findusimgqr img{
+    float: left;
+    width: 13.0rem;
+    height: 13.0rem;
+}
+.findusimgmap{
+    margin-right: 0rem;
+}
+.findusimgmap img{
+    padding-right: 0rem;
+    float: right;
+    width: 13.0rem;
+    height: 13.0rem;
+}
+.findustext{
+    padding-top: 2.0rem;
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
+    float: center;
+    color: brown;
+    font-weight: bold;
+    font-size: medium;
+    width: 75%;
+    text-align: center;
+}
+/* accomplishments start */
+.accomplishmentsstart{
+    background: white;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.accomplishmentstext li{
+    padding: 1.0rem 1.0rem;
+    text-decoration: none;
+    list-style: none;
+    color: brown;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.accomplishmentstext{
+    padding: 2.0rem 1.0rem;
+    background: white;
+}
+.trademarkimg{
+    padding: 1.0rem 1.0rem;
+    display: inline;
+}
+.trademarkimg img{
+    padding: 1.0rem 1.0rem;
+    width: 50.0rem;
+    height: 30.0rem;
+}
+@media (max-width: 1200px)
+{
+    html{
+        font-size: 55%;
+    }
+    
+}
+@media (max-width: 900px)
+{
+    html{
+        font-size: 45%;
+        
+    }
+}
+/*----------------------------------------------------------------------------------*/
+@media (max-width: 770px)
+{
+    html{
+        font-size: 45%;
+    }
+    .slider{
+        padding-top: 0% ;
+        padding-bottom: 2%;
+        width: 61.6rem;
+        height: 34.650rem;
+        margin-left: 20%;
+        border-radius: 0.770rem;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .slides{
+        width: 500%;
+        height: 34.650rem;
+        display: flex;
+        /* align-items: center; */
+        
+    }
+    .slides input{
+        
+        display: none;
+    }
+    .slide{
+        /* align-items: center; */
+        width: 20%;
+        transition: 2s;
+    }
+    .slide img{
+        width: 61.60rem;
+        height: 38.50rem;
+        border-radius: 0.770rem;
+    }
+    /*css for manual navigation*/
+    .navigation-manual{
+        position: absolute;
+        width: 61.60rem;
+        margin-top: -3.08rem;
+        /* margin-left: 20%;
+        margin-right: 20%; */
+        display: flex;
+        justify-content: center;
+    
+    }
+    .manual-btn{
+        border: .154rem solid white;
+        padding: .385rem;
+        border-radius: 0.77rem;
+        cursor: pointer;
+        transition: 1s;
+        overflow: hidden;
+        /* background: transparent !important; */
+    }
+    .manual-btn:not(:last-child){
+        margin-right: 3.08rem;
+    }
+    .manual-btn:hover{
+        background: brown;
+    }
+    #radio1:checked ~ .first{
+        margin-left: 0%;
+    }
+    #radio2:checked ~ .first{
+        margin-left: -20%;
+    }
+    #radio3:checked ~ .first{
+        margin-left: -40%;
+    }
+    #radio4:checked ~ .first{
+        margin-left: -60%;
+    }
+    
+    /*image slider css ends*/
+    #bootstrap-overrides .floating-menu{
+        
+        color: brown!important;
+        width: 7.315rem!important;
+        height: 32.34rem!important;
+        position: fixed!important;
+        /* padding-top: 20!important; */
+        z-index: 100!important;
+        /* overflow-y: hidden!important; */
+        bottom: 0rem!important;
+        right: -1rem!important;
+        margin-right: 0rem!important;
+        padding-right: 0rem!important;
+        background: transparent !important;
+        /* background-color: white!important; */
+        /* overflow: hidden!important; */
+    }
+    .floating-menu li a{
+        
+        /* padding-right: 10rem; */
+        text-align: center!important;
+    }
+    .floating-menu a{
+        /* padding-right: 2rem; */
+        text-decoration: none!important;
+        list-style: none!important;
+        color: whitesmoke!important;
+        list-style: none!important;
+        text-decoration: none!important;
+        font-size: medium!important;
+        text-align: center!important;
+    }
+    .floating-menu li{
+        padding: 0!important;
+        text-align: center!important;
+        text-decoration: none!important;
+        list-style-type: none!important;
+    }
+    .fa:hover {
+        color: white!important;
+        opacity: 1!important;
+    }
+    .fa-facebook{
+        /* width: 100rem!important; */
+        padding-right: 1.54rem;
+        opacity: 0.5!important;
+        background: #3B5998!important;
+        color: white!important;
+        text-align: center!important;
+    }
+    .fa-facebook:hover{
+        background: #3B5998!important;
+    }
+    .fa-linkedin {
+        
+        /* padding-right: 2rem; */
+        opacity: 0.5!important;
+        color: white!important;
+        background: #007bb5!important;
+        text-align: center!important;
+    }
+    .fa-linkedin:hover{
+        background: #007bb5!important;
+    }
+    
+    .fa-instagram {
+        opacity: 0.5!important;
+        color: white!important;
+        background: rgb(216, 13, 95)!important;
+        text-align: center!important;
+    }
+    .fa-instagram:hover{
+        background: rgb(216, 13, 95)!important;
+    }
+    .fa-whatsapp {
+        opacity: 0.5!important;
+        background: rgba(2, 239, 49)!important;
+        color: white!important;
+        text-align: center!important;
+    }
+    .fa-whatsapp:hover{
+        background: rgba(2, 239, 49)!important;
+    }
+    .fa-phone {
+        
+        opacity: 0.5!important;
+        background: rgba(43, 222, 232)!important;
+        /* background: transparent!important; */
+        color: white!important;
+        text-align: center!important;
+    }
+    .fa-phone:hover{
+        background: rgb(43,222,232)!important;
+    }
+    .fa-envelope {
+        opacity: 0.5!important;
+        background: rgb(184, 30, 30)!important;
+        color: white!important;
+        text-align: center!important;
+    }
+    .fa-envelope:hover{
+        background: rgb(184, 30, 30)!important;
+    }
+    .fa {
+        padding: 1.54rem!important;
+        font-size: 1.54rem!important;
+        width: 25%!important;
+        text-decoration: none!important;
+        margin: 0.385rem 0.77rem!important;
+        border-radius: 0.77rem!important;
+        text-align: center!important;
+        justify-content: center;
+    }
+    
+    
+    .main{
+        display: flex;
+        width: 100%;
+    }
+    
+    .afterimg{
+        background-color: white;
+        padding: 1.925rem 0rem;
+    }
+    .title{
+        background-color: brown;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 1.54rem;
+        float: center;
+        list-style-type: none;
+        padding: .385rem 1.54rem;
+        font-weight: bolder;
+        font-size: large;
+    }
+    .aboutus{
+        padding: 1.54rem 1.54rem;
+        display: inline-block;
+    }
+    .leftcircle{
+        float: left;
+        border-radius: 10%;
+        padding-right: 1.155rem;
+        width: 20%;
+        height: 13.86rem;
+        background-color: white;
+        /* box-shadow: .2rem .2rem .4rem .2rem rgb(181, 48, 48); */
+    }
+    .rightcircle{
+        float: right;
+        border-radius: 10%;
+        padding-left: 1.155rem;
+        width: 20%;
+        height: 13.86rem;
+        background-color: white;
+        /* box-shadow: .2rem .2rem .4rem .2rem rgb(181, 48, 48); */
+    }
+    .aboutus li{
+        padding: 0.77rem 3.08rem;
+        color: brown;
+        background-color: white;
+        font-size: large;
+        font-weight: bold;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    .slogan{
+        padding: 0.77rem 3.08rem;
+        color: brown;
+        background-color: white;
+        font-size: large;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    /* Products */
+    .rowproducts{
+        background-color: white;
+        padding-top: 2.695rem;
+        padding-bottom: 1.54rem;
+        width: 98.4%;
+        height: 14.245rem;
+        display: flex;
+        padding-left: 1.540rem;
+        /* padding-right: 2.0rem; */
+    }
+    .leftimg{
+        width: 33%;
+        /* padding: .5rem 2.0rem; */
+        padding: .385rem 1.54rem;
+        float: left;
+        
+    }
+    .leftimg img{
+        width: 90%;
+        /* padding-left: 2.5rem; */
+        height: 13.860rem;
+        border-radius: 3.850rem;
+        box-shadow: .077rem .154rem .154rem .0385rem brown;
+    }
+    .rightimg{
+        width: 33%;
+        float: right;
+        padding: .385rem 1.155rem;
+        
+    }
+    .rightimg img{
+        width: 90%;
+        height: 13.86rem;
+        border-radius: 3.85rem;
+        box-shadow: .077rem .154rem .154rem .0385rem brown;
+    }
+    .centerimg{
+        width: 33%;
+        float: center;
+        padding: .385rem 1.54rem;
+        
+    }
+    .centerimg img{
+        width: 90%;
+        /* padding-left: 2.5rem; */
+        height: 13.86rem;
+        border-radius: 3.85rem;
+        box-shadow: .077rem .154rem .154rem .0385rem brown;
+    }
+    .descriptionprod{
+        padding-top: 3.465rem;
+        background-color: white;
+        color: brown;
+        text-align: center;
+        display: flex;
+        padding-bottom: 1.54rem;
+    }
+    .leftdescriptionprod{
+        float: left;
+        width: 33%;
+    }
+    .leftdescriptionprod li{
+        width: 100%;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    .centerdescriptionprod{
+        float: center;
+        width: 33%;
+    }
+    .centerdescriptionprod li{
+        width: 95%;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    .rightdescriptionprod{
+        float: right;
+        width: 33%;
+    }
+    .rightdescriptionprod li{
+        width: 85%;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    /* products end */
+    /* findus start */
+    .findusstart{
+        padding: 0.77rem;
+        background: white;
+        /* width: 100%; */
+    }
+    .findusimg{
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        /* width: 100%; */
+    
+    }
+    .findusimgqr img{
+        float: left;
+        width: 10.01rem;
+        height: 10.01rem;
+    }
+    .findusimgmap{
+        margin-right: 0rem;
+    }
+    .findusimgmap img{
+        padding-right: 0rem;
+        float: right;
+        width: 10.01rem;
+        height: 10.01rem;
+    }
+    .findustext{
+        padding-top: 1.54rem;
+        padding-left: 1.54rem;
+        padding-right: 1.54rem;
+        float: center;
+        color: brown;
+        font-weight: bold;
+        font-size: medium;
+        width: 75%;
+        text-align: center;
+    }
+    /* accomplishments start */
+    .accomplishmentsstart{
+        background: white;
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+    }
+    .accomplishmentstext li{
+        padding: 0.77rem 0.77rem;
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .accomplishmentstext{
+        padding: 1.54rem 0.77rem;
+        background: white;
+    }
+    .trademarkimg{
+        padding: 0.77rem 0.77rem;
+        display: inline;
+    }
+    .trademarkimg img{
+        padding: 0.77rem 0.77rem;
+        width: 38.5rem;
+        height: 23.1rem;
+    }
+}
+@media (max-width: 600px)
+{
+    html{
+        font-size: 45%;
+    }
+}
+/*-----------------------------------------------------------------------------------------*/
+@media (max-width: 495px)
+{
+    html{
+        font-size: 40%;
+    }
+    .slider{
+        padding-top: 0% ;
+        padding-bottom: 2%;
+        width: 33.12rem;
+        height: 18.63rem;
+        margin-left: 20%;
+        border-radius: 0.414rem;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .slides{
+        width: 500%;
+        height: 18.63rem;
+        display: flex;
+        /* align-items: center; */
+        
+    }
+    .slides input{
+        
+        display: none;
+    }
+    .slide{
+        /* align-items: center; */
+        width: 20%;
+        transition: 2s;
+    }
+    .slide img{
+        width: 33.12rem;
+        height: 20.7rem;
+        border-radius: 0.414rem;
+    }
+    .navigation-manual{
+        position: absolute;
+        width: 33.12rem;
+        margin-top: -1.656rem;
+        /* margin-left: 20%;
+        margin-right: 20%; */
+        display: flex;
+        justify-content: center;
+    
+    }
+    .manual-btn{
+        border: .082rem solid white;
+        padding: .207rem;
+        border-radius: 0.414rem;
+        cursor: pointer;
+        transition: 1s;
+        overflow: hidden;
+        /* background: transparent !important; */
+    }
+    .manual-btn:not(:last-child){
+        margin-right: 1.656rem;
+    }
+    .manual-btn:hover{
+        background: brown;
+    }
+    #radio1:checked ~ .first{
+        margin-left: 0%;
+    }
+    #radio2:checked ~ .first{
+        margin-left: -20%;
+    }
+    #radio3:checked ~ .first{
+        margin-left: -40%;
+    }
+    #radio4:checked ~ .first{
+        margin-left: -60%;
+    }
+    #bootstrap-overrides .floating-menu{
+    
+        color: brown!important;
+        width: 4.933rem!important;
+        height: 26.388rem!important;
+        position: fixed!important;
+        /* padding-top: 20!important; */
+        z-index: 100!important;
+        /* overflow-y: hidden!important; */
+        bottom: 0rem!important;
+        right: 0rem!important;
+        margin-right: 0rem!important;
+        padding-right: 0rem!important;
+        background: transparent !important;
+        /* background-color: white!important; */
+        /* overflow: hidden!important; */
+    }
+    .floating-menu li a{
+        
+        /* padding-right: 10rem; */
+        text-align: center!important;
+    }
+    .floating-menu a{
+        /* padding-right: 2rem; */
+        text-decoration: none!important;
+        list-style: none!important;
+        color: whitesmoke!important;
+        list-style: none!important;
+        text-decoration: none!important;
+        font-size: medium!important;
+        text-align: center!important;
+    }
+    .floating-menu li{
+        padding: 0!important;
+        text-align: center!important;
+        text-decoration: none!important;
+        list-style-type: none!important;
+    }
+    .fa:hover {
+        color: white!important;
+        opacity: 1!important;
+    }
+    .fa-facebook{
+        /* width: 100rem!important; */
+        padding-right: 0rem;
+        opacity: 0.5!important;
+        background: #3B5998!important;
+        color: white!important;
+        text-align: center!important;
+    }
+    .fa-facebook:hover{
+        background: #3B5998!important;
+    }
+    .fa-linkedin {
+        
+        /* padding-right: 2rem; */
+        opacity: 0.5!important;
+        color: white!important;
+        background: #007bb5!important;
+        text-align: center!important;
+    }
+    .fa-linkedin:hover{
+        background: #007bb5!important;
+    }
+    
+    .fa-instagram {
+        opacity: 0.5!important;
+        color: white!important;
+        background: rgb(216, 13, 95)!important;
+        text-align: center!important;
+    }
+    .fa-instagram:hover{
+        background: rgb(216, 13, 95)!important;
+    }
+    .fa-whatsapp {
+        opacity: 0.5!important;
+        background: rgba(2, 239, 49)!important;
+        color: white!important;
+        text-align: center!important;
+    }
+    .fa-whatsapp:hover{
+        background: rgba(2, 239, 49)!important;
+    }
+    .fa-phone {
+        
+        opacity: 0.5!important;
+        background: rgba(43, 222, 232)!important;
+        /* background: transparent!important; */
+        color: white!important;
+        text-align: center!important;
+    }
+    .fa-phone:hover{
+        background: rgb(43,222,232)!important;
+    }
+    .fa-envelope {
+        opacity: 0.5!important;
+        background: rgb(184, 30, 30)!important;
+        color: white!important;
+        text-align: center!important;
+    }
+    .fa-envelope:hover{
+        background: rgb(184, 30, 30)!important;
+    }
+    .fa {
+        padding: 0.828rem!important;
+        font-size: 0.828rem!important;
+        width: 25%!important;
+        text-decoration: none!important;
+        margin: 0.207rem 0.414rem!important;
+        border-radius: 0.414rem!important;
+        text-align: center!important;
+        justify-content: center;
+    }
+    
+    
+    .main{
+        display: flex;
+        width: 100%;
+    }
+    
+    .afterimg{
+        background-color: white;
+        padding: 1.035rem 0rem;
+    }
+    .title{
+        background-color: brown;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 0.828rem;
+        float: center;
+        list-style-type: none;
+        padding: 0.207rem 0.828rem;
+        font-weight: bold;
+        font-size: medium;
+    }
+    .aboutus{
+        padding: 0.828rem 0.828rem;
+        display: inline-block;
+    }
+    .leftcircle{
+        float: left;
+        border-radius: 10%;
+        padding-right: 0.621rem;
+        width: 22%;
+        height: 8.452rem;
+        background-color: white;
+        /* box-shadow: .2rem .2rem .4rem .2rem rgb(181, 48, 48); */
+    }
+    .rightcircle{
+        float: right;
+        border-radius: 10%;
+        padding-left: 0.621rem;
+        width: 22%;
+        height: 8.452rem;
+        background-color: white;
+        /* box-shadow: .2rem .2rem .4rem .2rem rgb(181, 48, 48); */
+    }
+    .aboutus li{
+        padding: 0.414rem 1.656rem;
+        color: brown;
+        background-color: white;
+        font-size: medium;
+        font-weight: bold;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    .slogan{
+        padding: 0.414rem 1.656rem;
+        color: brown;
+        background-color: white;
+        font-size: small;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    /* Products */
+    .rowproducts{
+        background-color: white;
+        padding-top: 1.449rem;
+        padding-bottom: 0.828rem;
+        width: 98.4%;
+        height: 7.659rem;
+        display: flex;
+        padding-left: 0.828rem;
+        /* padding-right: 2.0rem; */
+    }
+    .leftimg{
+        width: 33%;
+        /* padding: .5rem 2.0rem; */
+        padding: 0.207rem 0.828rem;
+        float: left;
+        
+    }
+    .leftimg img{
+        width: 90%;
+        /* padding-left: 2.5rem; */
+        height: 7.452rem;
+        border-radius: 2.07rem;
+        box-shadow: 0.0414rem 0.0828rem 0.0828rem .0207rem brown;
+    }
+    .rightimg{
+        width: 33%;
+        float: right;
+        padding: .207rem 0.621rem;
+        
+    }
+    .rightimg img{
+        width: 90%;
+        height: 7.452rem;
+        border-radius: 2.07rem;
+        box-shadow: 0.0414rem 0.0828rem 0.0828rem .0207rem brown;
+    }
+    .centerimg{
+        width: 33%;
+        float: center;
+        padding: 0.207rem 0.828rem;
+        
+    }
+    .centerimg img{
+        width: 90%;
+        /* padding-left: 2.5rem; */
+        height: 7.452rem;
+        border-radius: 2.07rem;
+        box-shadow: 0.0414rem 0.0828rem 0.0828rem .0207rem brown;
+    }
+    .descriptionprod{
+        padding-top: 1.863rem;
+        background-color: white;
+        color: brown;
+        text-align: center;
+        display: flex;
+        padding-bottom: 0.828rem;
+    }
+    .leftdescriptionprod{
+        float: left;
+        width: 33%;
+    }
+    .leftdescriptionprod li{
+        width: 100%;
+        text-decoration: none;
+        font-size: medium;
+        font-weight: bold;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    .centerdescriptionprod{
+        float: center;
+        width: 33%;
+    }
+    .centerdescriptionprod li{
+        width: 95%;
+        text-decoration: none;
+        font-size: medium;
+        font-weight: bold;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    .rightdescriptionprod{
+        float: right;
+        width: 33%;
+    }
+    .rightdescriptionprod li{
+        width: 85%;
+        text-decoration: none;
+        font-size: medium;
+        font-weight: bold;
+        text-decoration-style: none;
+        list-style-type: none;
+        text-align: center;
+    }
+    /* products end */
+    /* findus start */
+    .findusstart{
+        padding: 0.414rem;
+        background: white;
+        /* width: 100%; */
+    }
+    .findusimg{
+        list-style-type: none;
+        text-decoration: none;
+        display: flexbox;
+        /* width: 100%; */
+    
+    }
+    .findusimgqr img{
+        float: left;
+        width: 9.382rem;
+        height: 9.382rem;
+    }
+    .findusimgmap{
+        margin-right: 0rem;
+    }
+    .findusimgmap img{
+        padding-right: 0rem;
+        float: right;
+        width: 9.382rem;
+        height: 9.382rem;
+    }
+    .findustext{
+        padding-top: 0.828rem;
+        padding-left: 0.828rem;
+        padding-right: 0.828rem;
+        float: center;
+        color: brown;
+        font-weight: bold;
+        font-size: small;
+        width: 75%;
+        text-align: center;
+    }
+    /* accomplishments start */
+    .accomplishmentsstart{
+        background: white;
+        display: inline;
+        list-style: none;
+        text-decoration: none;
+    }
+    .accomplishmentstext li{
+        padding: 0.414rem;
+        text-decoration: none;
+        list-style: none;
+        color: brown;
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .accomplishmentstext{
+        padding: 0.828rem 0.414rem;
+        background: white;
+    }
+    .trademarkimg{
+        padding: 0.414rem 0.414rem;
+        display: inline-block;
+    }
+    .trademarkimg img{
+        padding: 0.414rem;
+        width: 53.283rem;
+        height: 50.42rem;
+    }
+    
+    
+}
