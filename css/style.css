@@ -10,8 +10,8 @@
 }
 
 .logo{
-    width: 20.8rem;
-    height: 5.8rem;
+    width: 23.8rem;
+    height: 6.0rem;
     /* padding: 0.2rem 1rem; */
 }
 .icon-bar{
@@ -470,6 +470,10 @@ li a{
     html{
         font-size: 45%;
     }
+    .logo{
+        width: 23.8rem;
+        height: 6.0rem;
+    }
     .slider{
         padding-top: 0% ;
         padding-bottom: 2%;
@@ -898,7 +902,12 @@ li a{
 @media (max-width: 495px)
 {
     html{
-        font-size: 40%;
+        font-size: 43%;
+    }
+    .logo{
+        width: 26.3rem;
+        height: 9.8rem;
+        /* padding: 0.2rem 1rem; */
     }
     .slider{
         padding-top: 0% ;
@@ -973,7 +982,7 @@ li a{
     #bootstrap-overrides .floating-menu{
     
         color: brown!important;
-        width: 4.933rem!important;
+        width: 7.933rem!important;
         height: 26.388rem!important;
         position: fixed!important;
         /* padding-top: 20!important; */
@@ -999,7 +1008,7 @@ li a{
         color: whitesmoke!important;
         list-style: none!important;
         text-decoration: none!important;
-        font-size: medium!important;
+        font-size: small!important;
         text-align: center!important;
     }
     .floating-menu li{
