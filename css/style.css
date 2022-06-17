@@ -450,6 +450,10 @@ li a{
     width: 50.0rem;
     height: 30.0rem;
 }
+.title a{
+    color: white;
+} 
+/*----------------------------------------------*/
 @media (max-width: 1200px)
 {
     html{
